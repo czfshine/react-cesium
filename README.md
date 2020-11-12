@@ -13,3 +13,7 @@
 + 根据上面的说明切换到需要的分支
 + 运行`yarn` 命令安装依赖
 + 运行`yarn start` 启动开发服务器
+
+# doc
+
+* [在React中使用Cesium的最佳实践](https://www.yuque.com/czfshine/ni1bli/ihu2g8)
