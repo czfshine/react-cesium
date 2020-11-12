@@ -1,19 +1,19 @@
-import React, {useEffect, useRef} from 'react';
-import Cesium from 'cesium';
-
+import React, { useEffect } from 'react';
+import { Viewer } from 'cesium';
+import "cesium/Source/Widgets/widgets.css"
 function CesiumViewer() {
 
   useEffect(() => {
-    const viewer = new Cesium.Viewer("viewer")
+    const viewer = new Viewer("viewer")
     return () => {
       viewer.destroy()
     }
   }, [])
 
   return (
-      <div>
-        <canvas id={"viewer"}/>
-      </div>
+    <div>
+      <div id={"viewer"} />
+    </div>
   );
 }
 
